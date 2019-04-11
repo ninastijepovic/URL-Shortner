@@ -17,8 +17,3 @@ successful req:
 
 ```curl http://127.0.0.1:5000/0 -X DELETE -i```
 
-error req:
-
-```curl http://127.0.0.1:5000//non-existin-item  -X GET -i```
-
-```curl http://127.0.0.1:5000/non-existin-item  -X DELETE -i```
